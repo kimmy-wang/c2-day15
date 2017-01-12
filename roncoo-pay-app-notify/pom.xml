@@ -124,10 +124,6 @@
 			<version>${project.parent.version}</version>
 			<exclusions>
 				<exclusion>
-					<groupId>commons-logging</groupId>
-					<artifactId>commons-logging</artifactId>
-				</exclusion>
-				<exclusion>
 					<groupId>org.apache.activemq</groupId>
 					<artifactId>activemq-pool</artifactId>
 				</exclusion>
