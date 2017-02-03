@@ -65,13 +65,13 @@ public class DubboProvider {
 			log.info("========>创建完成");
 
 		} catch (Exception e) {
-			log.error("== DubboProvider context start error:", e);
+			log.error("== com.roncoo.pay.service.trade.DubboProvider context start error:", e);
 		}
 
-//		synchronized (DubboProvider.class) {
+//		synchronized (com.roncoo.pay.service.trade.DubboProvider.class) {
 //			while (true) {
 //				try {
-//					DubboProvider.class.wait();
+//					com.roncoo.pay.service.trade.DubboProvider.class.wait();
 //				} catch (InterruptedException e) {
 //					log.error("== synchronized error:", e);
 //				}
